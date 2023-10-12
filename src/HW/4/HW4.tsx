@@ -27,7 +27,7 @@ export const HW4 = () => {
       {currentText ? (
         <h1 id={'hw04-text'}>{currentText}</h1>
       ) : (
-        <h1 id={'hw04-default-text'}>setCurrentText</h1>
+        <h1 id={'hw04-default-text'}>{'СПИСОК ДЕЛ НА ДЕНЬ'}:</h1>
       )}
 
       <Input setCurrentText={setCurrentText} currentText={currentText}/>
